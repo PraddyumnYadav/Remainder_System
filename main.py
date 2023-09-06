@@ -4,6 +4,20 @@ import soundfile as sf
 from plyer import notification
 
 
+def main():
+    # Define Some Varibles
+    number = 0
+    audio_file = "Ringtone Coffin Dance.mp3"
+    title = "Take a Glass of Water"
+    message = "Hey Praddymn Yadav! I am Watching for a Long time That you Are Working with your Full Dedication but Working This Hard and Ignoring Your Health is not a good Thing but I am Here to Remind You to Take a Glass of Water Get up from Chair and Walk a Little Bit it will Help You to Stay Healthy and it will also help me to stay Happy. Thank You."
+
+    # Start the While Loop
+    while True:
+        number += 1
+        trigger_notification(number, title, message, audio_file)
+        time.sleep(30 * 60)
+
+
 def trigger_notification(number, title, message, ringtone):
     # Trigger the Notification
     notification.notify(
