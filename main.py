@@ -23,7 +23,7 @@ def trigger_notification(number, title, message, ringtone):
     notification.notify(
         title=(title + " - " + str(number)),
         message=message,
-        app_icon="logo.jpeg",
+        app_icon="logo.ico",
         timeout=10,
     )
 
