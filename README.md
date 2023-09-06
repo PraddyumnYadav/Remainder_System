@@ -26,3 +26,4 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+- **Note** - This is only for Linux Users Windows Users will not be able to setup this project with these Instructions You will have to do it Youreself.
