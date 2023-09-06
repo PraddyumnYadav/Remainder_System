@@ -48,3 +48,6 @@ def trigger_notification(number, title, message, ringtone):
 def get_audio_length(filename):
     with sf.SoundFile(filename) as f:
         return len(f) / f.samplerate
+
+
+main()
