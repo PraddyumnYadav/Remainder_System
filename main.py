@@ -13,7 +13,7 @@ def main():
 
     # Start the While Loop
     while True:
-	time.sleep(30 * 60)
+        time.sleep(30 * 60)
         number += 1
         trigger_notification(number, title, message, audio_file)
 
