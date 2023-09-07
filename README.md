@@ -1,5 +1,6 @@
 # Remainder_System
 - A Project for Lazy Programmers who Don't Take Care of their Health to Remind them to Drink Water Every 30 minutes.
+- Make Sure to Change path of your Ringtone in the File.
 
 ## Get-Started
 - Clone the Repository with `SSH`.
