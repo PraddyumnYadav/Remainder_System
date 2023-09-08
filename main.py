@@ -24,7 +24,7 @@ def trigger_notification(number, title, message, ringtone):
         title=(title + " - " + str(number)),
         message=message,
         app_icon="logo.ico",
-        timeout=10,
+        timeout=30,
     )
 
     # Initialize Pygame
