@@ -18,7 +18,7 @@ def main():
         trigger_notification(number, title, message, audio_file)
 
 
-def trigger_notification(number, title, message, ringtone):
+def trigger_notification(number: int, title: str, message: str, ringtone: str):
     # Trigger the Notification
     notification.notify(
         title=(title + " - " + str(number)),
@@ -45,7 +45,7 @@ def trigger_notification(number, title, message, ringtone):
 
 
 # Create a Function for Checking Length of Audio
-def get_audio_length(filename):
+def get_audio_length(filename: str):
     with sf.SoundFile(filename) as f:
         return len(f) / f.samplerate
 
